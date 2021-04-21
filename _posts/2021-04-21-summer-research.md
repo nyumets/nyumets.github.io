@@ -2,7 +2,7 @@
 layout: post
 title: Summer 2021 Research Experience
 subtitle: Schedule and Summary of Events
-gh-repo: daattali/beautiful-jekyll
+gh-repo: nyuneurosurgery/nyuneurosurgery
 gh-badge: [star, fork, follow]
 tags: [SummerResearch]
 comments: true

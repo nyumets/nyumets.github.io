@@ -1,16 +1,10 @@
 ---
 layout: page
-title: About me
-subtitle: Why you'd want to go on a date with me
+title: About us
+subtitle: Why choose NYU Neurosurgery
 ---
 
-My name is Inigo Montoya. I have the following qualities:
+Our department has a tradition of firsts ranging from covering one of America's first hospitals (Bellevue) to being the world leader in the care of brain tumors, spinal disease, and incorporating novel technologies to better care for neurological disorders.
 
-- I rock a great mustache
-- I'm extremely loyal to my family
-
-What else do you need?
-
-### My story
-
-To be honest, I'm having some trouble remembering right now, so why don't you just watch [my movie](https://en.wikipedia.org/wiki/The_Princess_Bride_%28film%29) and it will answer **all** your questions.
+### Read more here
+https://med.nyu.edu/departments-institutes/neurosurgery/about-us

@@ -11,6 +11,16 @@ Highlights Include:
 # Chess matches with humans and machines
 # World class surgery
 ```
+
+```
+Applications Open: TBD
+Applications Deadline: TBD
+Admissions Notification: TBD
+Program Orientation: 6/04/2021
+Program Start Date: 6/04/2021
+Program End Date: 8/12/2021
+```
+
 For more details on the AI experience see [the NYU OLAB Website](https://nyuolab.org/).
 
 ### Support or Contact

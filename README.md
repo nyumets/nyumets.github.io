@@ -9,6 +9,7 @@ Consider coming to NYU for an amazing summer research experience in the Departme
 ```markdown
 Highlights Include:
 # Chess matches with humans and machines
+# World class surgery
 ```
 For more details on the AI experience see [the NYU OLAB Website](https://nyuolab.org/).
 

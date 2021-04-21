@@ -13,16 +13,19 @@ Highlights Include:
 ```
 
 ```
+# Timeline for Summer 2021
 Applications Open: TBD
 Applications Deadline: TBD
 Admissions Notification: TBD
 Program Orientation: 6/04/2021
 Program Start Date: 6/04/2021
+Research Symposium: 08/05/2021
 Program End Date: 8/12/2021
 ```
 
+### Participating NYU Neurosurgery Labs
+#### NYU OLAB
 For more details on the AI experience see [the NYU OLAB Website](https://nyuolab.org/).
 
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.

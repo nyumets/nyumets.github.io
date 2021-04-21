@@ -8,10 +8,7 @@ Consider coming to NYU for an amazing summer research experience in the Departme
 
 ```markdown
 Highlights Include:
-# Chess matches with Douglas Kondziolka
-# Clinic with Eric Oermann
-# Brain surgery with Dan Orringer
-# Conversations with Howard Riina
+# Chess matches with humans and machines
 ```
 For more details on the AI experience see [the NYU OLAB Website](https://nyuolab.org/).
 

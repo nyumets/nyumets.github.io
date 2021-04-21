@@ -14,7 +14,7 @@ author: Eric Oermann, M.D.
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  About Me: "aboutme"
+  About Us: "aboutme"
   Resources:
     - NYU Neurosurgery: "https://med.nyu.edu/departments-institutes/neurosurgery/"
     - OLAB AI Research Group: "https://nyuolab.org/"

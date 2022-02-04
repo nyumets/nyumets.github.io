@@ -1,15 +1,15 @@
 ---
 layout: page
 title: About Us
-subtitle: Why choose NYU Neurosurgery
+subtitle: NYUMets Team
 ---
 
-Our department has a tradition of firsts ranging from covering one of America's first hospitals (Bellevue) to being the world leader in the care of brain tumors, spinal disease, and incorporating novel technologies to better care for neurological disorders. Our summer research program was conceived by Dr. John Golfinos, and is lead by Dr. Eric Oermann and Dr. Darryl Lau.
+We are a multidisciplinary team of physicians, scientists, graduate students, medical students, and software engineers with the common goal of better understanding and treating cancer through computer science. 
 
-### Eric Oermann, M.D.
+### Eric Karl Oermann, M.D.
 ![EKO](https://pbs.twimg.com/profile_images/1277781221519626240/-_4sMFfJ.jpg)
 
-### Darryl Lau, M.D.
+### Douglas Kondziolka, M.D.
 ![DL](https://nyulangone.org/images/doctors/l/lau/1801138060/darryl-lau-square.jpg)
 
 ## Read more here

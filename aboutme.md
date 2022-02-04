@@ -6,11 +6,29 @@ subtitle: NYUMets Team
 
 We are a multidisciplinary team of physicians, scientists, graduate students, medical students, and software engineers with the common goal of better understanding and treating cancer through computer science. 
 
-### Eric Karl Oermann, M.D.
-![EKO](https://pbs.twimg.com/profile_images/1277781221519626240/-_4sMFfJ.jpg)
+### Lots of people to thank and spruce up
+#### NYULH
+Eric Karl Oermann
+Douglas Kondziolka
+Katherine E. Link
+Frederick Kwon
+Michael Liu
+Juan Diego Alzate
+Erik Sulman
+Mustafa Nasir-Moin
+John Golfinos
+Michael Recht
+Daniel Orringer
+Yvonne Liu
+Kenneth Bernstein
+Tanxia Qiu
+Who else?
 
-### Douglas Kondziolka, M.D.
-![DL](https://nyulangone.org/images/doctors/l/lau/1801138060/darryl-lau-square.jpg)
+#### Amazon Web Services
+Erin Chu
+
+#### nVidia
+Anthony Costa
 
 ## Read more here
 https://med.nyu.edu/departments-institutes/neurosurgery/about-us

@@ -4,7 +4,7 @@ title: Douglas Kondziolka
 subtitle: Professor of Neurosurgery and Radiation Oncology
 ---
 
-![Douglas Kondziolka](https://nyumets.org/assets/img/Kondziolka_2021_Neurosurgery.jpg "DK")
+<img src="https://nyumets.org/assets/img/Kondziolka_2021_Neurosurgery.jpg" width="200" height="200" />
 
 ***Douglas Kondziolka, M.D., M.Sc., FRCSC, FACS***
 ***Professor of Neurosurgery and Radiation Oncology***

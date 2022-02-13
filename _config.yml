@@ -15,6 +15,8 @@ author: Eric Oermann, M.D.
 
 navbar-links:
   About Us: "aboutme"
+    - The Team: "aboutme"
+    - Douglas Kondziolka: "douglaskondziolka"
   Resources:
     - NYU Neurosurgery: "https://med.nyu.edu/departments-institutes/neurosurgery/"
     - OLAB AI Research Group: "https://nyuolab.org/"

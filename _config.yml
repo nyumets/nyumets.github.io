@@ -14,7 +14,7 @@ author: Eric Oermann, M.D.
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  About Us: "aboutme"
+  About Us:
     - The Team: "aboutme"
     - Douglas Kondziolka: "douglaskondziolka"
   Resources:

@@ -17,8 +17,10 @@ navbar-links:
   About Us:
     - The Team: "aboutme"
     - Douglas Kondziolka: "douglaskondziolka"
+  Documentation:
+    - API: "api"
   Resources:
-    - NYU Neurosurgery: "https://med.nyu.edu/departments-institutes/neurosurgery/"
+    - NYU Department of Neurosurgery: "https://med.nyu.edu/departments-institutes/neurosurgery/"
     - OLAB AI Research Group: "https://nyuolab.org/"
   Author's home: "https://nyuolab.org/team"
 

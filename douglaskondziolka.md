@@ -12,8 +12,11 @@ subtitle: Professor of Neurosurgery and Radiation Oncology
 --->
 
 ***Douglas Kondziolka, M.D., M.Sc., FRCSC, FACS***
+
 ***Professor of Neurosurgery and Radiation Oncology***
+
 ***NYU Langone Health System, New York University***
+
 ***douglas.kondziolka@nyulangone.org***
  
 Dr. Douglas Kondziolka received his medical degree from the University of Toronto and graduated from the Toronto neurosurgery residency program in 1991. From 1989 to 1991 at the University of Pittsburgh, he completed a master of science program in the Department of Behavioral Neuroscience with a thesis in brain radiobiology, and a fellowship in stereotactic surgery and radiosurgery. 

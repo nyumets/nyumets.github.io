@@ -8,22 +8,22 @@ We are a multidisciplinary team of physicians, scientists, graduate students, me
 
 ### Lots of people to thank and spruce up
 #### NYULH
-Eric Karl Oermann
-Douglas Kondziolka
-Katherine E. Link
-Frederick Kwon
-Michael Liu
-Juan Diego Alzate
-Erik Sulman
-Mustafa Nasir-Moin
-John Golfinos
-Michael Recht
-Daniel Orringer
-Yvonne Liu
-Kenneth Bernstein
-Tanxia Qiu
-Robert Grossman?
-Who else?
+*** in alphabetical order ***
+Juan Diego Alzate \
+Kenneth Bernstein \
+John Golfinos \
+Robert Grossman !? The dean? \
+Douglas Kondziolka \
+Frederick Kwon \
+Katherine E. Link \
+Michael Liu \
+Yvonne Liu \
+Mustafa Nasir-Moin \
+Eric Karl Oermann \
+Daniel Orringer \
+Tanxia Qiu \
+Michael Recht \
+Erik Sulman \
 
 #### Amazon Web Services
 Erin Chu

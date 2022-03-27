@@ -14,8 +14,9 @@ author: Eric Oermann, M.D.
 # --- List of links in the navigation bar --- #
 
 navbar-links:
-  About Us:
-    - The Team: "aboutme"
+  About:
+    - The Why: "whynyumets"
+    - The Team: "theteam"
     - Douglas Kondziolka: "douglaskondziolka"
   Documentation:
     - API: "api"

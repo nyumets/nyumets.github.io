@@ -8,7 +8,7 @@ We are a multidisciplinary team of physicians, scientists, graduate students, me
 
 ### Lots of people to thank and spruce up
 #### NYULH
-*** in alphabetical order ***
+*** in alphabetical order *** \
 Juan Diego Alzate \
 Kenneth Bernstein \
 John Golfinos \
@@ -23,7 +23,7 @@ Eric Karl Oermann \
 Daniel Orringer \
 Tanxia Qiu \
 Michael Recht \
-Erik Sulman \
+Erik Sulman
 
 #### Amazon Web Services
 Erin Chu

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Eric Oermann
+title: Eric Karl Oermann
 subtitle: Professor of Neurosurgery, Radiology, and Data Science
 ---
 

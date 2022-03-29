@@ -16,6 +16,18 @@ You will need to have the following tools installed
 
 Once the prerequisites are installed, you can run `bundle exec jekyll serve` to start the dev server at http://localhost:4000.  Changes to files within `src/` will be auto-reloaded, but changing the site structure in `_config.yml` will require you to stop and restart the dev server.
 
+### Changing the header or site layout
+
+Edit `{repo_root}/_config.yml` and modify the section near the top that starts with `navbar-links:`.  The page path values will be relative to the `src/` directory.
+
+### .html vs .md
+
+Jekyll pages can be either `.html` or `.md`.  To keep things standard, `.md` is the simplest as it will generate pages for you using existing templates.  If you need special layouts for images etc, then switch to `.html`.
+
+### Adding new blog posts
+
+Add a new file to `src/_posts/`.  The filename MUST conform to the format `YYYY-MM-DD-title.{md|html}` so that Jekyll will know how to organize the post.
+
 
 # TODO
 See NYU OLAB Admin board for e-mails and ToDo Items

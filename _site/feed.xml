@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     
-    <title>NYUMets</title>
+    <title>NYUMets Home</title>
     
     
     <description>Project site for the NYUMets project to advance the computational analysis of cancer.</description>
@@ -12,14 +12,24 @@
     
     
       <item>
-        <title>TestMarkdown</title>
+        <title>NYUMets Brain v1.0</title>
         <description>
-          Excerpt from Soulshaping by Jeff Brown - 
-          This is a demo post to show you how to write blog posts with markdown. I strongly encourage you to take 5 minutes to learn how to write in markdown - it’ll teach you how to transform regular text into bold/italics/headings/tables/etc. Here is some bold text Here is a secondary...
+          Introducing NYUMets - 
+          
+Katherine E. Link, Ph.D. 
+MD Student
+
+
+Fred Kwon, Ph.D. 
+MSTP Student
+
+Participating NYU Neurosurgery Labs
+NYU OLAB: For more details on the AI experience see the NYU OLAB Website.
+
         </description>
-        <pubDate>Wed, 26 Feb 2020 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/2020-02-26-testmd/</link>
-        <guid isPermaLink="true">http://localhost:4000/2020-02-26-testmd/</guid>
+        <pubDate>Tue, 29 Mar 2022 00:00:00 -0400</pubDate>
+        <link>http://localhost:4000/2022-03-29-nyumets-brain-v1/</link>
+        <guid isPermaLink="true">http://localhost:4000/2022-03-29-nyumets-brain-v1/</guid>
       </item>
     
   </channel>

@@ -15,12 +15,12 @@ author: Eric Oermann, M.D.
 
 navbar-links:
   About:
-    - The Why: "whynyumets"
-    - The Team: "theteam"
-    - Douglas Kondziolka: "douglaskondziolka"
-    - Eric Karl Oermann: "erickoermann"
+    - Why NYUMets?: "/about/whynyumets"
+    - The Team: "/about/theteam"
+    - Douglas Kondziolka: "/about/douglaskondziolka"
+    - Eric Karl Oermann: "/about/erickoermann"
   Documentation:
-    - API: "api"
+    - API: "/docs/api"
   Resources:
     - NYU Department of Neurosurgery: "https://med.nyu.edu/departments-institutes/neurosurgery/"
     - OLAB AI Research Group: "https://nyuolab.org/"
@@ -202,6 +202,16 @@ paginate: 5
 kramdown:
   input: GFM
 
+
+source: ./src
+destination: ./_site
+
+sass:
+  sass_dir: _sass
+collections:
+  posts:
+    output: true
+
 # Default YAML values (more information on Jekyll's site)
 defaults:
   -
@@ -218,6 +228,9 @@ defaults:
     values:
       layout: "page"
 
+
+# include: [_pages]
+
 # Exclude these files from production site
 exclude:
   - CHANGELOG.md
@@ -227,7 +240,6 @@ exclude:
   - LICENSE
   - README.md
   - screenshot.png
-  - docs/
 
 plugins:
   - jekyll-paginate

@@ -228,9 +228,6 @@ defaults:
     values:
       layout: "page"
 
-
-# include: [_pages]
-
 # Exclude these files from production site
 exclude:
   - CHANGELOG.md

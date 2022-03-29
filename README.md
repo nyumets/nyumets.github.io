@@ -14,7 +14,7 @@ You will need to have the following tools installed
 
 ### Making changes locally
 
-Once the prerequisites are installed, you can run the local server with autoreload by executing `bundle exec jekyll serve`.  This will start a dev server at http://localhost:4000.
+Once the prerequisites are installed, you can run `bundle exec jekyll serve` to start the dev server at http://localhost:4000.  Changes to files within `src/` will be auto-reloaded, but changing the site structure in `_config.yml` will require you to stop and restart the dev server.
 
 
 # TODO

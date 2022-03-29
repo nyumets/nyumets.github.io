@@ -239,7 +239,6 @@ exclude:
   - Gemfile.lock
   - LICENSE
   - README.md
-  - screenshot.png
 
 plugins:
   - jekyll-paginate

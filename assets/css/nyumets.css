@@ -1,0 +1,2 @@
+.navbar-custom .nav-item.dropdown .dropdown-menu { min-width: 240px; box-shadow: 3px 2px 5px #000; }
+.navbar-custom .nav-item.dropdown .dropdown-menu .dropdown-item:hover { background: #fff; }

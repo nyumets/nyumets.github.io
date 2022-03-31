@@ -6,7 +6,7 @@
 # --- Required options --- #
 
 # Name of website
-title: NYUMets
+title: NYUMets Home
 
 # Your name to show in the footer
 author: Eric Oermann, M.D.
@@ -14,13 +14,14 @@ author: Eric Oermann, M.D.
 # --- List of links in the navigation bar --- #
 
 navbar-links:
+  Latest News: "blog"
   About:
-    - The Why: "whynyumets"
-    - The Team: "theteam"
-    - Douglas Kondziolka: "douglaskondziolka"
-    - Eric Karl Oermann: "erickoermann"
+    - Why NYUMets?: "/about/whynyumets"
+    - The Team: "/about/theteam"
+    - Douglas Kondziolka: "/about/douglaskondziolka"
+    - Eric Karl Oermann: "/about/erickoermann"
   Documentation:
-    - API: "api"
+    - API: "/docs/api"
   Resources:
     - NYU Department of Neurosurgery: "https://med.nyu.edu/departments-institutes/neurosurgery/"
     - OLAB AI Research Group: "https://nyuolab.org/"
@@ -37,7 +38,7 @@ round-avatar: true
 
 # If you want to have an image logo in the top-left corner instead of having the title of the website,
 # then specify the following parameter
-#title-img: /path/to/image
+# title-img: "/assets/img/nyu-icon.png"
 
 
 # --- Footer social media links --- #
@@ -121,8 +122,8 @@ footer-link-col: "#404040"
 #mobile-theme-col: "#0085A1"
 
 # For any extra visual customization, you can include additional CSS files in every page on your site. List any custom CSS files here
-#site-css:
-#  - "/assets/css/custom-styles.css"
+# site-css:
+#  - "/assets/css/nyumets.scss"
 
 # If you have common JavaScript files that should be included in every page, list them here
 #site-js:
@@ -202,6 +203,15 @@ paginate: 5
 kramdown:
   input: GFM
 
+
+source: ./src
+destination: ./_site
+sass:
+  style: compact
+collections:
+  posts:
+    output: true
+
 # Default YAML values (more information on Jekyll's site)
 defaults:
   -
@@ -226,8 +236,6 @@ exclude:
   - Gemfile.lock
   - LICENSE
   - README.md
-  - screenshot.png
-  - docs/
 
 plugins:
   - jekyll-paginate

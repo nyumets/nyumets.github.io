@@ -2,12 +2,15 @@
 layout: post
 title: NYUMets Brain v1
 subtitle: Introducing NYUMets
-gh-repo: tbd/tbd
+cover-img: /assets/img/path.jpg
+thumbnail-img: /assets/img/thumb.png
+share-img: /assets/img/path.jpg
+gh-repo: https://github.com/nyumets/nyumets.github.io
 gh-badge: [star, fork, follow]
 tags: [NYUMets, NYUMets_brain]
 comments: true
 ---
-
+ß
 I was thinking that we could have a "post" for each of the datasets / releases in the grander "NYUMets" project? Our first one will be for Katie's work on NYUMets-neuro, but there will be future ones as well.
 
 <!---

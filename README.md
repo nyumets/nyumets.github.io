@@ -2,7 +2,7 @@
 
 This site is built with [Jekyll and Github Pages](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll).  The changes will be propagated as soon as they are merged to the `main` branch.
 
-## Setup
+## Technical Setup
 
 ### Prerequisites
 
@@ -28,6 +28,9 @@ Jekyll pages can be either `.html` or `.md`.  To keep things standard, `.md` is 
 
 Add a new file to `src/_posts/`.  The filename MUST conform to the format `YYYY-MM-DD-title.{md|html}` so that Jekyll will know how to organize the post.
 
+## Administrative Procedure
+
+Generally speaking we want to create new "Posts" for major data releases or updates to the datasets that we're hosting on AWS. Additionally, every major publication should be accompanied by a post describing the publication, how it works with the datasets, and how to access it on AWS (ideally this will involve a demo in Jupyter).
 
 # TODO
 See NYU OLAB Admin board for e-mails and ToDo Items

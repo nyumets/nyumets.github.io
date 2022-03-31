@@ -2,6 +2,10 @@
 
 This site is built with [Jekyll and Github Pages](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/testing-your-github-pages-site-locally-with-jekyll).  The changes will be propagated as soon as they are merged to the `main` branch.
 
+## Making live updates
+
+Since we use some custom Jekyll plugins, Github Pages won't be as automated as we'd like.  We'll need to [follow the instructions here](https://stackoverflow.com/questions/28249255/how-do-i-configure-github-to-use-non-supported-jekyll-site-plugins/28252200#28252200) to manually build and then push those to a branch.
+
 ## Technical Setup
 
 ### Prerequisites

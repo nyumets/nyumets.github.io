@@ -19,7 +19,7 @@ Katherine E. Link \
 Michael Liu \
 Yvonne Liu \
 Mustafa Nasir-Moin \
-Eric Karl Oermann \
+**Eric Karl Oermann [Principal Investigator]** \
 Daniel Orringer \
 Tanxia Qiu \
 Michael Recht \

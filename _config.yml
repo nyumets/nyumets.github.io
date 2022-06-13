@@ -16,14 +16,14 @@ author: Mike Liu, Eric Oermann
 navbar-links:
   Latest News: "blog"
   About:
-    - Why NYUMets?: "/about/whynyumets"
+#    - Why NYUMets?: "/about/whynyumets"
     - The Team: "/about/theteam"
     - Douglas Kondziolka: "/about/douglaskondziolka"
     - Eric Karl Oermann: "/about/erickoermann"
-    - Amazon Open Data Initiative: "https://aws.amazon.com/opendata/"
+    - AWS Open Data Initiative: "https://aws.amazon.com/opendata/"
+    - OLAB AI Research Group: "https://nyuolab.org/"
   Resources:
     - API: "/docs/api"
-    - OLAB AI Research Group: "https://nyuolab.org/"
   Discussion: "https://github.com/nyumets/nyumets.github.io/discussions"
   Get Access: "https://nyumets-signup-site.s3.amazonaws.com/index.html"
 
@@ -39,7 +39,6 @@ round-avatar: true
 # If you want to have an image logo in the top-left corner instead of having the title of the website,
 # then specify the following parameter
 # title-img: "/assets/img/nyu-icon.png"
-
 
 # --- Footer social media links --- #
 

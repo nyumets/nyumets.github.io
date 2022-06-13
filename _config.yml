@@ -9,7 +9,7 @@
 title: NYUMets Home
 
 # Your name to show in the footer
-author: Eric Oermann, M.D.
+author: Mike Liu
 
 # --- List of links in the navigation bar --- #
 
@@ -20,12 +20,11 @@ navbar-links:
     - The Team: "/about/theteam"
     - Douglas Kondziolka: "/about/douglaskondziolka"
     - Eric Karl Oermann: "/about/erickoermann"
-  Documentation:
-    - API: "/docs/api"
   Resources:
+    - API: "/docs/api"
     - NYU Department of Neurosurgery: "https://med.nyu.edu/departments-institutes/neurosurgery/"
     - OLAB AI Research Group: "https://nyuolab.org/"
-  Author's home: "https://nyuolab.org/team"
+  Get Access: "https://nyumets-signup-site.s3.amazonaws.com/index.html"
 
 # --- Logo --- #
 
@@ -46,26 +45,9 @@ round-avatar: true
 # Select the social network links that you want to show in the footer.
 # Uncomment the links you want to show and add your information to each one.
 social-network-links:
-  email: "oermae01@nyu.edu"
+  email: "admin@nyumets.org"
   github: RespectableGlioma
   twitter: ekoermann
-#  medium: yourname
-#  reddit: yourname
-#  linkedin: daattali
-#  xing: yourname
-#  stackoverflow: "3943160/daattali"
-#  snapchat: deanat78
-#  instagram: deanat78
-#  spotify: yourname
-#  telephone: +14159998888
-#  steam: deanat78
-#  twitch: yourname
-#  yelp: yourname
-#  telegram: yourname
-#  calendly: yourname
-#  mastodon: instance.url/@username
-#  ORCID: your ORCID ID
-#  google-scholar: your google scholar
 
 # If you want to show a link to an RSS in the footer, add the site description here.
 # If you don't want to show an RSS link, remove the following line.

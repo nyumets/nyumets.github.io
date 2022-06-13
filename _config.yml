@@ -24,6 +24,7 @@ navbar-links:
     - API: "/docs/api"
     - NYU Department of Neurosurgery: "https://med.nyu.edu/departments-institutes/neurosurgery/"
     - OLAB AI Research Group: "https://nyuolab.org/"
+  Discussion: "https://github.com/nyumets/nyumets.github.io/discussions"
   Get Access: "https://nyumets-signup-site.s3.amazonaws.com/index.html"
 
 # --- Logo --- #

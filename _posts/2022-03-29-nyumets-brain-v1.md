@@ -1,20 +1,21 @@
 ---
 layout: post
-title: NYUMets Brain v1.0
+title: NYUMets_Brain v1.0
 subtitle: Introducing NYUMets
 gh-repo: nyumets/nyumets-open-data
 gh-badge: [follow]
 tags: [NYUMets, NYUMets_brain]
 social-share: false
 ---
+This post is to announce our first data release, NYUMets_Brain v1.0. This dataset was extracted from one of the world's largest clinical registeries of metastatic brain cancer.
+[Text on brain metastastes]
 
+[Some of Katie's and Fred's thoughts on their project.]
 ***Katherine E. Link, Ph.D.*** \
 ***MD Student***
 
 ***Fred Kwon, Ph.D.*** \
 ***MSTP Student***
-
-Some of Katie's and Fred's thoughts on their project.
 
 ### Participating NYU Langone Teams
 **NYU OLAB:** For more details on the AI experience see [the NYU OLAB Website](https://nyuolab.org/)<br>

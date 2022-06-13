@@ -10,6 +10,7 @@ to making this possible:
 #### NYULH
 Juan Diego Alzate \
 Kenneth Bernstein \
+Shannon Ciprut \
 John Golfinos \
 Robert Grossman !? The dean? \
 Douglas Kondziolka \

@@ -8,10 +8,19 @@ tags: [NYUMets, NYUMets_brain]
 social-share: false
 ---
 This post is to announce our first data release, NYUMets_Brain v1.0. This dataset was extracted from one of the world's largest clinical registeries of metastatic brain cancer.
-[Text on brain metastastes]
+[Text on brain metastastes describing files, dataset, etc... this should be templated for future releases]
 
-[Some of Katie's and Fred's thoughts on their project.]
-***Katherine E. Link, Ph.D.*** \
+This dataset is truly special for its underlying concept of how to study cancer. It certainly has many superlatives:<br>
+
+- The largest MRI dataset of cancer
+- One of the world’s largest datasets of brain imaging
+- The largest datset of tumor segmentations
+- One of the only, but also the largest, datasets of longitudinal imaging
+- One of the only multi-modal datasets of human cancer… the list goes on.<br><br>
+
+The concept though is what is important, and it is that we need to fundamentally rethink how we approach cancer analytics if we are to better understand and ultimately treat it. When physicians think about cancer they think about it many different dimensions and modalities: genetics, imaging, clinical, sociological, and so forth. Even more importantly though, physicians don’t just think about cancer as an independent entity, but as a disease belonging to a human being who is living in time with their cancer. Thinking in terms of time is fundamental to how we perceive cancer as people, but it is so often absent from how we model it as computer scientists. NYUMets, starting with metastatic brain cancer v1.0, is our attempt to change this way of thinking.<br><br>
+
+***Katherine E. Link, B.S.*** \
 ***MD Student***
 
 ***Fred Kwon, Ph.D.*** \

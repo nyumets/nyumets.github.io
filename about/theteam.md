@@ -7,8 +7,7 @@ subtitle: NYUMets Team
 We are a multidisciplinary team of physicians, scientists, graduate students, medical students, and software engineers with the common goal of better understanding and treating cancer through computer science. 
 
 ### Lots of people to thank and spruce up
-#### NYULH
-*** in alphabetical order *** \
+#### NYULH [in alphabetical order]
 Juan Diego Alzate \
 Kenneth Bernstein \
 John Golfinos \
@@ -19,7 +18,7 @@ Katherine E. Link \
 Michael Liu \
 Yvonne Liu \
 Mustafa Nasir-Moin \
-**Eric Karl Oermann [Principal Investigator]** \
+Eric Karl Oermann \
 Daniel Orringer \
 Tanxia Qiu \
 Michael Recht \

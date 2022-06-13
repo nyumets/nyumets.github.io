@@ -9,7 +9,7 @@
 title: NYUMets Home
 
 # Your name to show in the footer
-author: Mike Liu
+author: Mike Liu, Eric Oermann
 
 # --- List of links in the navigation bar --- #
 
@@ -19,10 +19,10 @@ navbar-links:
     - Why NYUMets?: "/about/whynyumets"
     - The Team: "/about/theteam"
     - Douglas Kondziolka: "/about/douglaskondziolka"
-#    - Eric Karl Oermann: "/about/erickoermann"
+    - Eric Karl Oermann: "/about/erickoermann"
+    - Amazon Open Data Initiative: "https://aws.amazon.com/opendata/"
   Resources:
     - API: "/docs/api"
-    - NYU Department of Neurosurgery: "https://med.nyu.edu/departments-institutes/neurosurgery/"
     - OLAB AI Research Group: "https://nyuolab.org/"
   Discussion: "https://github.com/nyumets/nyumets.github.io/discussions"
   Get Access: "https://nyumets-signup-site.s3.amazonaws.com/index.html"

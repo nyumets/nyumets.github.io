@@ -12,7 +12,6 @@ Juan Diego Alzate \
 Kenneth Bernstein \
 Shannon Ciprut \
 John Golfinos \
-Robert Grossman !? The dean? \
 Douglas Kondziolka \
 Frederick Kwon \
 Katherine E. Link \

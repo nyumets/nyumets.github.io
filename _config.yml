@@ -19,7 +19,7 @@ navbar-links:
     - Why NYUMets?: "/about/whynyumets"
     - The Team: "/about/theteam"
     - Douglas Kondziolka: "/about/douglaskondziolka"
-    - Eric Karl Oermann: "/about/erickoermann"
+#    - Eric Karl Oermann: "/about/erickoermann"
   Resources:
     - API: "/docs/api"
     - NYU Department of Neurosurgery: "https://med.nyu.edu/departments-institutes/neurosurgery/"

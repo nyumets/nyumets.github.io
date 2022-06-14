@@ -18,7 +18,7 @@ Katherine E. Link \
 Michael Liu \
 Yvonne Liu \
 Mustafa Nasir-Moin \
-Eric Karl Oermann \
+Eric Karl Oermann [PI] \
 Daniel Orringer \
 Tanxia Qiu \
 Michael Recht \

@@ -4,4 +4,4 @@ title: API
 subtitle: api goes here
 ---
 
-This is our amazing API
+This is our amazing API.

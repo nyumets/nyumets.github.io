@@ -277,7 +277,7 @@ title: NYUMets Docs
         <td> margin_dose_largest </td>
         <td> float </td>
         <td> <br> </td>
-        <td> Margin dose in unit Gray of the largest target from specified gamma knife plan </td>
+        <td> Margin dose in unit Gy of the largest target from specified gamma knife plan </td>
     </tr>
     <tr></tr>
     <tr class="gk">   
@@ -291,7 +291,7 @@ title: NYUMets Docs
         <td> volume_12gy_largest </td>
         <td> float </td>
         <td> <br> </td>
-        <td> Volume of tissue in cubic centimeters that received 12 Gray from the largest target of the specified gamma knife plan </td>
+        <td> Volume of tissue in cubic centimeters that received 12 Gy from the largest target of the specified gamma knife plan </td>
     </tr>
     <tr></tr>
     <tr class="gk">   
@@ -305,28 +305,28 @@ title: NYUMets Docs
         <td> max_dose </td>
         <td> float </td>
         <td> <br> </td>
-        <td> Maximum dose in Gray from the largest target of the specified gamma knife plan </td>
+        <td> Maximum dose in Gy from the largest target of the specified gamma knife plan </td>
     </tr>
     <tr></tr>
     <tr class="gk">   
         <td> min_dose </td>
         <td> float </td>
         <td> <br> </td>
-        <td> Minimum dose in Gray of the largest target of the specified gamma knife plan </td>
+        <td> Minimum dose in Gy of the largest target of the specified gamma knife plan </td>
     </tr>
     <tr></tr>
     <tr class="gk">   
         <td> mean_dose </td>
         <td> float </td>
         <td> <br> </td>
-        <td> Mean dose in Gray within the largest target of the specified gamma knife plan </td>
+        <td> Mean dose in Gy within the largest target of the specified gamma knife plan </td>
     </tr>
     <tr></tr>
     <tr class="gk">   
         <td> dose_rate </td>
         <td> float </td>
         <td> <br> </td>
-        <td> Dose rate in Gray per minute of the specified gamma knife plan </td>
+        <td> Dose rate in Gy per minute of the specified gamma knife plan </td>
     </tr>
     <tr></tr>
     <tr class="gk">   
@@ -473,7 +473,7 @@ title: NYUMets Docs
         <td> wbrt_dose </td>
         <td> int </td>
         <td> </td>
-        <td> Dose of whole brain radiation therapy in unit Gray </td>
+        <td> Dose of whole brain radiation therapy in unit Gy </td>
     </tr>
     <tr></tr>
     <tr class="fu_appt">   
@@ -933,7 +933,7 @@ title: NYUMets Docs
         <td> wbrt_dose </td>
         <td> float </td>
         <td> <br> </td>
-        <td> Dose of whole brain radiation therapy (WBRT) in Gray if patient underwent WBRT prior to initial gamma knife radiosurgery </td>
+        <td> Dose of whole brain radiation therapy (WBRT) in Gy if patient underwent WBRT prior to initial gamma knife radiosurgery </td>
     </tr>
     <tr>
         <td> wbrt_fractions </td>
@@ -1484,7 +1484,7 @@ title: NYUMets Docs
         <td> margin_dose </td>
         <td> float </td>
         <td> <br> </td>
-        <td> Margin dose in unit Gray of the target </td>
+        <td> Margin dose in unit Gy of the target </td>
     </tr>
     <tr></tr>
     <tr class="gk">   
@@ -1498,14 +1498,14 @@ title: NYUMets Docs
         <td> volume_12gy </td>
         <td> float </td>
         <td> <br> </td>
-        <td> Volume of tissue in cubic centimeters that received 12 Gray from target </td>
+        <td> Volume of tissue in cubic centimeters that received 12 Gy from target </td>
     </tr>
     <tr></tr>
     <tr class="gk">   
         <td> max_dose </td>
         <td> float </td>
         <td> <br> </td>
-        <td> Maximum dose in Gray from the target </td>
+        <td> Maximum dose in Gy from the target </td>
     <tr></tr>
     <tr class="gk">   
         <td> beam_on_time </td>

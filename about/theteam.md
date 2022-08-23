@@ -23,6 +23,7 @@ Eric Karl Oermann [PI] \
 Daniel Orringer \
 Tanxia Qiu \
 Michael Recht \
+Zane Schnurman \
 Erik Sulman
 
 #### Amazon Web Services Open Data Initiative

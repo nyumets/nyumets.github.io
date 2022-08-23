@@ -19,8 +19,8 @@ This dataset is most notable for its focus on encouraging scientists and clinici
 
 The concept of cancer dynamics and using data science to better understand this incredibly complex phenomenon are what is most important though, and that is why this dataset is being accompanied by the release of the NYUMets API for both structuring the data as well as accessing it computationally. We need to fundamentally rethink how we approach cancer analytics if we are to better understand and ultimately treat it. When physicians think about cancer they think about it many different dimensions and modalities: genetics, imaging, clinical, sociological, and so forth. Even more importantly though, physicians don’t just think about cancer as an independent entity, but as a disease belonging to a human being who is living in time with their cancer. Thinking in terms of time is fundamental to how we perceive cancer as people, but it is so often absent from how we model it as computer scientists. NYUMets, starting with metastatic brain cancer v1.0, is our attempt to change this way of thinking.<br>
 
-***Katherine E. Link, B.S.*** \
-***MD Student*** <br>
+***Katherine E. Link*** \
+***Machine Learning Engineer, NYU OLAB*** <br>
 
 ### Participating NYU Langone Teams
 **NYU OLAB:** For more details on the AI experience see [the NYU OLAB Website](https://nyuolab.org/)<br>

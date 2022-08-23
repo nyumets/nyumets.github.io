@@ -7,24 +7,20 @@ gh-badge: [follow]
 tags: [NYUMets, NYUMets_brain]
 social-share: false
 ---
-This post is to announce our first data release, NYUMets_Brain v1.0. This dataset was extracted from one of the world's largest clinical registeries of metastatic brain cancer.
-[Text on brain metastastes describing files, dataset, etc... this should be templated for future releases]
+This post is to announce our first data release, NYUMets_Brain v1.0. This dataset was extracted from one of the world's largest clinical registeries of metastatic brain cancer. We chose to begin our initiative with a focus on metastatic brain cancer for many reasons. Metastatic brain cancer is particularly hard to treat, as the brain's natural resistance mechanisms and fragility also make it more difficult to treat using standard drugs, radiation techniques, and surgery. On the other hand, the imaging data is particularly easy to standardize and manipulate relative to imaging within other organ systems.
 
-This dataset is truly special for its underlying concept of how to study cancer. It certainly has many superlatives:<br>
+This dataset is most notable for its focus on encouraging scientists and clinicians alike to focus on cancer dynamics - how does metastatic cancer change over time? What can this tell us about such a complex disease? However, the dataset itself has many superlatives:<br>
 
-- The largest MRI dataset of cancer
-- One of the world’s largest datasets of brain imaging
-- The largest datset of tumor segmentations
-- One of the only, but also the largest, datasets of longitudinal imaging
-- One of the only multi-modal datasets of human cancer… the list goes on.<br><br>
+- One of the largest MRI datasets of cancer.
+- One of the world’s largest datasets of brain imaging.
+- One of the world's largest datasets of tumor segmentations.
+- One of the only, but also the largest, datasets of longitudinal imaging.
+- One of the only multi-modal datasets of human cancer.<br>
 
-The concept though is what is important, and it is that we need to fundamentally rethink how we approach cancer analytics if we are to better understand and ultimately treat it. When physicians think about cancer they think about it many different dimensions and modalities: genetics, imaging, clinical, sociological, and so forth. Even more importantly though, physicians don’t just think about cancer as an independent entity, but as a disease belonging to a human being who is living in time with their cancer. Thinking in terms of time is fundamental to how we perceive cancer as people, but it is so often absent from how we model it as computer scientists. NYUMets, starting with metastatic brain cancer v1.0, is our attempt to change this way of thinking.<br><br>
+The concept of cancer dynamics and using data science to better understand this incredibly complex phenomenon are what is most important though, and that is why this dataset is being accompanied by the release of the NYUMets API for both structuring the data as well as accessing it computationally. We need to fundamentally rethink how we approach cancer analytics if we are to better understand and ultimately treat it. When physicians think about cancer they think about it many different dimensions and modalities: genetics, imaging, clinical, sociological, and so forth. Even more importantly though, physicians don’t just think about cancer as an independent entity, but as a disease belonging to a human being who is living in time with their cancer. Thinking in terms of time is fundamental to how we perceive cancer as people, but it is so often absent from how we model it as computer scientists. NYUMets, starting with metastatic brain cancer v1.0, is our attempt to change this way of thinking.<br>
 
 ***Katherine E. Link, B.S.*** \
-***MD Student***
-
-***Fred Kwon, Ph.D.*** \
-***MSTP Student***
+***MD Student*** <br>
 
 ### Participating NYU Langone Teams
 **NYU OLAB:** For more details on the AI experience see [the NYU OLAB Website](https://nyuolab.org/)<br>

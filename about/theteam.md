@@ -35,4 +35,4 @@ Anthony Costa
 Michael Liu
 
 ## Read more here
-https://med.nyu.edu/departments-institutes/neurosurgery/about-us
+<a href="https://med.nyu.edu/departments-institutes/neurosurgery/about-us">About us</a>

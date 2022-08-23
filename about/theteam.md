@@ -10,6 +10,7 @@ to making this possible (alphabetical order):
 #### NYULH
 Juan Diego Alzate \
 Kenneth Bernstein \
+Viola J. Chen \
 Shannon Ciprut \
 John Golfinos \
 Lavender Yao Jiang \

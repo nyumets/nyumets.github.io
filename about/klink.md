@@ -8,5 +8,5 @@ Katherine "Katie" E. Link is an machine learning engineer, medical student, and 
 
 ![Katie Link](/assets/img/klink.jpeg "KLINK")
 
-***Katherine E. Link, M.D.***
+***Katherine E. Link, M.D. Candidate***
  

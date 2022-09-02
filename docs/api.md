@@ -1626,8 +1626,5 @@ title: NYUMets Docs
         <td> int </td>
         <td> <br> </td>
         <td> Relative timepoint in the sequence of all images for a given patient </td>
-    </tr>
-    <tr></tr>
- </table>
-</div>   
+    </tr> 
     

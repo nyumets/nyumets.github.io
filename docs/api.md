@@ -48,6 +48,7 @@ title: NYUMets Docs
     <li><a href="#time_series">Time Series Dataset</a> - Each row in the time series dataset represents a point in time, in units of days indexed from each patient’s initial gamma knife radiosurgery. Dataset variables include clinical details related to medication changes, imaging timing/references to raw imaging files, procedure timing, clinical follow up, and outcomes. </li>
     <li><a href="#individual_dataset"> Individual Dataset </a> - Each row represents an individual patient with demographic details and summary clinical data.</li>
     <li><a href="#gk_details">Gamma Knife Details Dataset</a> - Each row represents an individual gamma knife target to provide further details about available gamma knife radiosurgery.</li>
+    <li><a href="#imaging_dataset">Imaging Dataset Metadata</a> - Each row represents a point in time with imaging.</li>
     <li><a href="https://nyumets.org/404">NYUMets MONAI API</a> - MONAI Extension for handling longitudinal oncology and imaging data.</li>
     <br>
 </ul>
@@ -1520,3 +1521,113 @@ title: NYUMets Docs
         <td> <br> </td>
         <td> Total volume in cubic centimeters of all gamma knife targets from procedure </td>
     </tr>
+</table>
+</div>
+<br>
+<br>
+<br>
+<div id="imaging_dataset" class="title">
+    <h3> Imaging Dataset Metadata </h3>
+</div>
+<div>
+<table>
+    <tr>
+            <th> Variable </th>
+            <th> Type </th>
+            <th> Key </th>
+            <th> Description </th>
+    </tr>
+    <tr>
+        <td> PatientID </td>
+        <td> int </td>
+        <td> <br> </td>
+        <td> Randomly generated 8-digit identifier unique to each patient (corresponds with patient_identifier) </td>
+    </tr>
+    <tr></tr>
+    <tr class="image">   
+        <td> StudyID </td>
+        <td> int </td>
+        <td> <br> </td>
+        <td> Randomly generated 10-digit identifier unique to each cranial imaging and corresponding to imaging dataset (corresponds with image_id) </td>
+    </tr>
+    <tr></tr>
+    <tr class="image">   
+        <td> T1 </td>
+        <td> int </td>
+        <td> 0 = No <br> 1 = Yes </td>
+        <td> Whether a pre-contrast T1 image file exists </td>
+    </tr>
+    <tr></tr>
+    <tr class="image">   
+        <td> CT1 </td>
+        <td> int </td>
+        <td> 0 = No <br> 1 = Yes </td>
+        <td> Whether a post-contrast T1 image file exists </td>
+    </tr>
+    <tr></tr>
+    <tr class="image">   
+        <td> T2 </td>
+        <td> int </td>
+        <td> 0 = No <br> 1 = Yes </td>
+        <td> Whether a T2 image file exists </td>
+    </tr>
+    <tr></tr>
+    <tr class="image">   
+        <td> FLAIR </td>
+        <td> int </td>
+        <td> 0 = No <br> 1 = Yes </td>
+        <td> Whether a FLAIR image file exists </td>
+    </tr>
+    <tr></tr>
+    <tr class="image">   
+        <td> RTSTRUCT_segmentation </td>
+        <td> int </td>
+        <td> 0 = No <br> 1 = Yes </td>
+        <td> Whether a Gamma Knife segmentation file exists </td>
+    </tr>
+    <tr></tr>
+    <tr class="image">   
+        <td> RTSTRUCT_MRI </td>
+        <td> int </td>
+        <td> 0 = No <br> 1 = Yes </td>
+        <td> Whether a Gamma Knife MRI (high-resolution post-contrast T1 MRI) file exists </td>
+    </tr>
+    <tr></tr>
+    <tr class="image">   
+        <td> DaysFromBaselineScan </td>
+        <td> int </td>
+        <td> <br> </td>
+        <td> Number of days from the first scan in the sequence </td>
+    </tr>
+    <tr></tr>
+    <tr class="image">   
+        <td> DaysToImageFromGKS </td>
+        <td> int </td>
+        <td> <br> </td>
+        <td> Number of days from the first Gamma Knife treatment </td>
+    </tr>
+    <tr></tr>
+    <tr class="image">   
+        <td> PO_segmentation </td>
+        <td> int </td>
+        <td> 0 = No <br> 1 = Yes </td>
+        <td> Whether a PO segmentation file exists </td>
+    </tr>
+    <tr></tr>
+    <tr class="image">   
+        <td> ExpertAdjusted </td>
+        <td> int </td>
+        <td> 0 = No <br> 1 = Yes </td>
+        <td> Whether the segmentation was checked and possibly adjusted by an expert after preprocessing </td>
+    </tr>
+    <tr></tr>
+    <tr class="image">   
+        <td> RelativeTimepoint </td>
+        <td> int </td>
+        <td> <br> </td>
+        <td> Relative timepoint in the sequence of all images for a given patient </td>
+    </tr>
+    <tr></tr>
+ </table>
+</div>   
+    

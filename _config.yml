@@ -27,7 +27,7 @@ navbar-links:
     - API: "/docs/api"
     - Contact us: "/docs/contact"
   Discussion: "https://github.com/nyumets/nyumets.github.io/discussions"
-  Get Access: "https://nyumets-signup-site.s3.amazonaws.com/index.html"
+  Get Access: "https://signup.nyumets.org"
 
 # --- Logo --- #
 

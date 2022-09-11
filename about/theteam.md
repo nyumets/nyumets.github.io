@@ -23,7 +23,6 @@ Mustafa Nasir-Moin \
 Eric Karl Oermann [PI] \
 Daniel Orringer \
 Tanxia Qiu \
-Michael Recht \
 Zane Schnurman \
 Erik Sulman
 

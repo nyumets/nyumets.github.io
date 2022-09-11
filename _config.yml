@@ -24,7 +24,7 @@ navbar-links:
     - AWS Open Data Initiative: "https://aws.amazon.com/opendata/"
     - OLAB AI Research Group: "https://nyuolab.org/"
   Resources:
-    - API: "/docs/api"
+    - NYUMets_Brain API: "/docs/brainapi"
     - Contact us: "/docs/contact"
   Discussion: "https://github.com/nyumets/nyumets.github.io/discussions"
   Get Access: "https://signup.nyumets.org"

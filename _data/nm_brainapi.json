@@ -1,0 +1,204 @@
+[
+ {
+  "label": "Time series",
+  "icon": "ph ph-chart-line",
+  "desc": "Each row is a point in time, in days from the patient’s initial gamma knife radiosurgery: medication changes, imaging with references to raw files, procedures, follow-up visits and outcomes.",
+  "rows": [
+   [
+    "patient_identifier",
+    "int",
+    "Randomly generated 8-digit identifier unique to each patient",
+    ""
+   ],
+   [
+    "visit_class",
+    "int",
+    "Type of event this row records",
+    "1 Medication · 2 Gamma Knife · 3 Image · 4 Follow Up · 5 Death"
+   ],
+   [
+    "time_from_gk_days",
+    "int",
+    "Time indexed from initial gamma knife procedure, in days",
+    ""
+   ],
+   [
+    "time_from_diagnosis_days",
+    "int",
+    "Time indexed from primary cancer diagnosis, in days",
+    ""
+   ],
+   [
+    "image_id",
+    "int",
+    "10-digit identifier for each cranial imaging study, linked to the imaging dataset",
+    ""
+   ],
+   [
+    "total_vol_all_targets",
+    "float",
+    "Volume in cm³ of all gamma knife targets from this procedure",
+    ""
+   ],
+   [
+    "margin_dose_largest",
+    "float",
+    "Margin dose in Gy of the largest target in this plan",
+    ""
+   ],
+   [
+    "macdonaldcriteria",
+    "int",
+    "Tumor response of the largest tumor by MacDonald criteria",
+    "1 Complete · 2 Partial · 3 Stable · 4 Progression"
+   ],
+   [
+    "kps_fu",
+    "int",
+    "Karnofsky Performance Status at follow-up",
+    ""
+   ],
+   [
+    "cause_of_death",
+    "int",
+    "Cause of death, if the patient died",
+    "1 Brain mets · 2 Systemic · 3 Other"
+   ]
+  ]
+ },
+ {
+  "label": "Individual",
+  "icon": "ph ph-user",
+  "desc": "Each row is one patient, with demographic details, cancer history, presenting symptoms, neurologic exam at first evaluation and summary outcomes.",
+  "rows": [
+   [
+    "patient_identifier",
+    "int",
+    "Randomly generated 8-digit identifier unique to each patient",
+    ""
+   ],
+   [
+    "age_diagnosis",
+    "int",
+    "Age at primary cancer diagnosis",
+    ""
+   ],
+   [
+    "primary_histology",
+    "int",
+    "Primary cancer diagnosis",
+    "1 Lung · 2 Melanoma · 3 Breast · … 13 Lymphoma"
+   ],
+   [
+    "extent_of_disease_init",
+    "int",
+    "Extent of disease at initial gamma knife evaluation",
+    "1 Brain only … 4 Brain, primary, >1 site"
+   ],
+   [
+    "num_tumors_init",
+    "int",
+    "Number of intracranial metastases at initial evaluation",
+    ""
+   ],
+   [
+    "rpa",
+    "int",
+    "RTOG recursive partitioning analysis class",
+    "1 · 2 · 3"
+   ],
+   [
+    "total_fu_time",
+    "int",
+    "Total follow-up in days from initial gamma knife",
+    ""
+   ],
+   [
+    "days_to_death_from_gk",
+    "int",
+    "Days from initial gamma knife until death",
+    ""
+   ]
+  ]
+ },
+ {
+  "label": "Gamma Knife details",
+  "icon": "ph ph-crosshair",
+  "desc": "Each row is one gamma knife target, giving per-target detail for the radiosurgery plans in the time series.",
+  "rows": [
+   [
+    "gk_id",
+    "int",
+    "9-digit identifier unique to each gamma knife procedure",
+    ""
+   ],
+   [
+    "target_count",
+    "int",
+    "Count of targets indexed from 1, per plan",
+    ""
+   ],
+   [
+    "largest_target_in_plan",
+    "int",
+    "Whether this is the plan’s largest target",
+    "0 No · 1 Yes"
+   ],
+   [
+    "target_volume",
+    "float",
+    "Volume of outlined target in cm³",
+    ""
+   ],
+   [
+    "pci",
+    "float",
+    "Paddick Conformity Index of the target",
+    ""
+   ],
+   [
+    "gri",
+    "float",
+    "Gradient index of the target",
+    ""
+   ],
+   [
+    "margin_dose",
+    "float",
+    "Margin dose in Gy",
+    ""
+   ],
+   [
+    "volume_12gy",
+    "float",
+    "Volume of tissue in cm³ receiving 12 Gy",
+    ""
+   ]
+  ]
+ },
+ {
+  "label": "Imaging metadata",
+  "icon": "ph ph-brain",
+  "desc": "Each row is a point in time with cranial imaging, keyed to the time series by image_id.",
+  "rows": [
+   [
+    "image_id",
+    "int",
+    "10-digit identifier unique to each cranial imaging study",
+    ""
+   ],
+   [
+    "image_count",
+    "int",
+    "Count of imaging events indexed from 1, per patient",
+    ""
+   ],
+   [
+    "image_available",
+    "int",
+    "Whether raw imaging is available",
+    "0 No · 1 Yes"
+   ]
+  ]
+ }
+]

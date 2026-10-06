@@ -1,0 +1,11 @@
+<header class="nm-nav">
+  <a class="nm-brand" href="{{ '/' | relative_url }}">
+    <span class="nm-icon">{% if site.avatar %}<img src="{{ site.avatar | relative_url }}" alt="">{% else %}icon{% endif %}</span>
+    <span>NYU<b>Mets</b></span>
+  </a>
+  <nav class="nm-links">
+    {% for l in site.data.nm_nav %}<a href="{{ l.url | relative_url }}"{% if l.external %} target="_blank" rel="noopener"{% elsif page.url == l.url %} class="on"{% elsif l.match and page.url contains l.match %} class="on"{% endif %}>{{ l.title }}{% if l.external %} <i class="ph ph-arrow-up-right"></i>{% endif %}</a>
+    {% endfor %}<a class="btn btn-primary" href="{{ site.nm_access_url | default: 'https://datacatalog.med.nyu.edu/dataset/10624' }}" target="_blank" rel="noopener">Request access <i class="ph ph-arrow-up-right"></i></a>
+  </nav>
+  <button class="btn btn-icon btn-secondary nm-menu" aria-label="Menu" aria-expanded="false"><i class="ph ph-list" style="font-size:20px"></i></button>
+</header>

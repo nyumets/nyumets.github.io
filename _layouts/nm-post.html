@@ -1,0 +1,14 @@
+---
+layout: nyumets
+---
+<article class="nm-page nm-article">
+  <a href="{{ '/blog' | relative_url }}" class="nm-back"><i class="ph ph-arrow-left"></i>News</a>
+  <header class="nm-article-head">
+    <div class="nm-article-meta">{% for t in page.tags limit:1 %}<span class="tag tag-accent">{{ t }}</span>{% endfor %}<span>{{ page.date | date: site.date_format | default: "%B %-d, %Y" }}</span></div>
+    <h1>{{ page.title }}</h1>
+    {% if page.subtitle %}<p class="nm-lede">{{ page.subtitle }}</p>{% endif %}
+  </header>
+  {% if page.cover-img %}{% assign cover = page.cover-img %}{% if cover.first %}{% assign cover = cover.first %}{% if cover.first %}{% assign cover = cover.first %}{% endif %}{% endif %}<div class="nm-ph nm-article-cover"><img src="{{ cover | relative_url }}" alt=""></div>{% endif %}
+  <div class="nm-prose">{{ content }}</div>
+  {% if page.tags.size > 0 %}<div class="nm-article-tags">{% for t in page.tags %}<a class="tag tag-neutral" href="{{ '/tags' | relative_url }}#{{ t | slugify }}">{{ t }}</a>{% endfor %}</div>{% endif %}
+</article>

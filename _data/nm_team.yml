@@ -1,0 +1,41 @@
+leads:
+  - name: "Eric Karl Oermann, MD"
+    role: "Principal Investigator"
+    title: "Assistant Professor of Neurosurgery, Radiology, and Data Science"
+    photo: /assets/img/oermann_talk_violakeh_bright.png
+    focus: 60% 15%   
+    url: /about/erickoermann
+  - name: "Douglas Kondziolka, MD"
+    role: "Clinical lead"
+    title: "Professor of Neurosurgery, NYU Langone Health"
+    photo: /assets/img/Kondziolka_2021_Neurosurgery.jpg
+    focus: 150% 40%   
+    url: /about/douglaskondziolka
+  - name: "Katherine E. Link"
+    role: "Machine Learning Engineer"
+    title: "NYU Langone Health"
+    photo: /assets/img/link.jpeg
+    focus: 50% 35% 
+    url: /about/klink
+members:
+  - "Juan Diego Alzate"
+  - "Kenneth Bernstein"
+  - "Viola J. Chen"
+  - "Shannon Ciprut"
+  - "John Golfinos"
+  - "Lavender Yao Jiang"
+  - "Frederick Kwon"
+  - "Christopher Xujin Liu"
+  - "Yvonne Liu"
+  - "Mustafa Nasir-Moin"
+  - "Daniel Orringer"
+  - "Tanxia Qiu"
+  - "Zane Schnurman"
+  - "Erik Sulman"
+collaborators:
+  - name: "Erin Chu"
+    org: "AWS Open Data Initiative"
+  - name: "Anthony Costa"
+    org: "NVIDIA"
+  - name: "Michael Liu"
+    org: "Bearwave LLC"

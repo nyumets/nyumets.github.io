@@ -1,0 +1,17 @@
+- title: Home
+  url: /
+- title: Docs
+  url: /docs/brainapi
+  match: /docs/brainapi
+- title: News
+  url: /blog
+  match: /blog
+- title: Team
+  url: /about/theteam
+  match: /about
+- title: Contact
+  url: /docs/contact
+  match: /docs/contact
+- title: Discussion
+  url: https://github.com/nyumets/nyumets.github.io/discussions
+  external: true

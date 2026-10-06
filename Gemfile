@@ -6,3 +6,5 @@ gemspec
 
 
 gem "webrick", "~> 1.7"
+
+gem "logger", "~> 1.7"

@@ -40,6 +40,10 @@ a.nm-tab{color:var(--color-neutral-300)}
 .nm-tab:hover{color:var(--color-accent)}
 .nm-tab.on{color:var(--color-accent);background:var(--color-accent-900);box-shadow:inset 2px 0 0 var(--color-accent)}
 .nm-docs td{vertical-align:top}
+.nm-pager{display:flex;align-items:center;gap:6px;margin-top:20px;font-size:13px}.nm-pager:empty{display:none}
+.nm-pg{min-width:32px;height:32px;padding:0 8px;display:inline-flex;align-items:center;justify-content:center;border-radius:6px;cursor:pointer;background:none;border:0;font:inherit;color:var(--color-neutral-300);box-shadow:inset 0 0 0 1px var(--color-divider)}
+.nm-pg:hover{color:var(--color-accent)}.nm-pg.on{color:var(--color-accent);box-shadow:inset 0 0 0 1px var(--color-accent);background:var(--color-accent-900)}.nm-pg:disabled{color:var(--color-neutral-600);box-shadow:none;cursor:default}
+.nm-pg-label{margin-left:auto;color:var(--color-neutral-500);font-size:12px}
 .nm-var{font:13px ui-monospace,Menlo,monospace;color:var(--color-accent)}
 .nm-news{display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:72px}
 .nm-post{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:40px;align-items:center;margin-bottom:40px}

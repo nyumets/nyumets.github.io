@@ -1,0 +1,56 @@
+---
+layout: nyumets
+title: Brain API docs
+---
+<div class="nm-docs">
+<aside class="nm-side-wrap"><div class="nm-side" id="nm-tabs"><h6 style="color:var(--color-neutral-500);margin:0 0 10px">NYUMets_Brain</h6></div>
+<div class="nm-side nm-tools"><h6 style="color:var(--color-neutral-500);margin:24px 0 10px">Tools</h6><a class="nm-tab" href="{{ '/docs/monaiapi' | relative_url }}"><i class="ph ph-cube"></i>NYUMets MONAI API</a></div></aside>
+<div>
+<div style="font-size:12px;color:var(--color-neutral-500);margin-bottom:10px">Docs / Clinical data / <span data-k="label"></span></div>
+<h1 style="font-size:36px;margin:0 0 10px"><span data-k="label"></span> dataset</h1>
+<p style="font-size:15px;color:var(--color-neutral-300);max-width:720px;margin:0 0 24px" data-k="desc"></p>
+<div style="display:flex;gap:10px;align-items:center;margin-bottom:12px;flex-wrap:wrap">
+<div style="position:relative;width:340px;max-width:100%"><i class="ph ph-magnifying-glass" style="position:absolute;left:10px;top:11px;color:var(--color-neutral-500)"></i><input class="input" id="nm-q" style="padding-left:32px;min-height:40px;width:100%" placeholder="Filter variables" aria-label="Filter variables"></div>
+<span style="font-size:12px;color:var(--color-neutral-500)" id="nm-count"></span>
+</div>
+<table class="table" style="width:100%"><thead><tr><th style="width:230px">Variable</th><th style="width:70px">Type</th><th>Description</th><th style="width:300px">Key</th></tr></thead><tbody id="nm-rows"></tbody></table>
+<p id="nm-empty" hidden style="padding:28px 6px;font-size:14px;color:var(--color-neutral-500)">No variables match. Try another table.</p>
+<nav class="nm-pager" id="nm-pager" aria-label="Pages"></nav>
+</div>
+</div>
+<script>
+(function () {
+  var docs = {{ site.data.nm_brainapi | jsonify }};
+  var tab = 0, q = '', page = 0, PER = 10, pagerEl = document.getElementById('nm-pager'), tabsEl = document.getElementById('nm-tabs'), rowsEl = document.getElementById('nm-rows');
+  function esc(s) { return String(s).replace(/[&<>]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;' }[c]; }); }
+  docs.forEach(function (d, i) {
+    var b = document.createElement('button'); b.className = 'nm-tab'; b.innerHTML = '<i class="' + d.icon + '"></i>' + esc(d.label);
+    b.onclick = function () { tab = i; page = 0; render(); }; tabsEl.appendChild(b);
+  });
+  document.getElementById('nm-q').oninput = function (e) { q = e.target.value.trim().toLowerCase(); page = 0; render(); };
+  function render() {
+    var d = docs[tab];
+    tabsEl.querySelectorAll('.nm-tab').forEach(function (b, i) { b.classList.toggle('on', i === tab); });
+    document.querySelectorAll('[data-k=label]').forEach(function (e) { e.textContent = d.label; });
+    document.querySelector('[data-k=desc]').textContent = d.desc;
+    var rows = d.rows.filter(function (r) { return !q || r[0].indexOf(q) > -1 || r[2].toLowerCase().indexOf(q) > -1 || (r[3] || '').toLowerCase().indexOf(q) > -1; });
+    var nPages = Math.max(1, Math.ceil(rows.length / PER)); if (page > nPages - 1) page = nPages - 1;
+    var slice = rows.slice(page * PER, page * PER + PER);
+    rowsEl.innerHTML = slice.map(function (r) {
+      return '<tr><td class="nm-var">' + esc(r[0]) + '</td><td><span class="tag tag-neutral">' + esc(r[1]) + '</span></td><td style="color:var(--color-neutral-200)">' + esc(r[2]) + '</td><td style="font-size:12px;color:var(--color-neutral-400);line-height:1.6">' + (r[3] ? esc(r[3]).split(' · ').join('<br>') : '—') + '</td></tr>';
+    }).join('');
+    document.getElementById('nm-count').textContent = rows.length + ' of ' + d.rows.length + ' variables';
+    var ph = '';
+    if (nPages > 1) {
+      ph += '<button class="nm-pg" data-p="' + (page - 1) + '"' + (page === 0 ? ' disabled' : '') + ' aria-label="Previous"><i class="ph ph-caret-left"></i></button>';
+      for (var i = 0; i < nPages; i++) ph += '<button class="nm-pg' + (i === page ? ' on' : '') + '" data-p="' + i + '">' + (i + 1) + '</button>';
+      ph += '<button class="nm-pg" data-p="' + (page + 1) + '"' + (page === nPages - 1 ? ' disabled' : '') + ' aria-label="Next"><i class="ph ph-caret-right"></i></button>';
+      ph += '<span class="nm-pg-label">Page ' + (page + 1) + ' of ' + nPages + ' · 10 per page</span>';
+    }
+    pagerEl.innerHTML = ph;
+    pagerEl.querySelectorAll('.nm-pg').forEach(function (b) { b.onclick = function () { page = +b.getAttribute('data-p'); render(); window.scrollTo({ top: 0, behavior: 'smooth' }); }; });
+    document.getElementById('nm-empty').hidden = rows.length > 0;
+  }
+  render();
+})();
+</script>

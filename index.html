@@ -1,22 +1,18 @@
 ---
-layout: home
-title: NYUMets
-subtitle: Understanding Metastatic Cancer
+layout: nyumets
+title: Home
+description: Open, real-world longitudinal data and tools to study how metastatic cancer changes over time.
 ---
-
-NYUMets is an attempt to advance the science and care of metastatic (Stage IV) cancer by applying the principles of open data science to cancer research.
-Metastatic cancer is a devastating and complex illness, and one of the greatest challenges in treating it is measuring it in its full, real-world complexity as it evolves over time: clinically, radiographically, molecularly, and genetically.<br> <br>
-
-Through <b>open source cancer research</b> and promoting the modelling of longitudinal data to study <b>cancer dynamics</b>
-we can facilitate new understanding of metastatic cancer both scientifically and clinically, ultimately improving how we take care of patients. 
-Data science starts with data and software, and our initial goal is to make available massive, open, longitudinal, real-world datasets of metastatic cancer
-and novel tools to interact with these data resources.
-
-This research initiative is housed at the NYU Grossman School of Medicine at NYU and the NYU Center for Data Science, and  brings together a diverse team of 
-physicians, scientists, staff, students all with the goal of using data science to better characterize and understand metastatic cancer. We are incredibly grateful to our
-collaborators at nVidia Inc. and Amazon Web Services (AWS) for their ongoing support, and all of us look forward to sharing our work and growing this initiative in the coming years. <br> <br>
-
-Please see our <a href="https://nyumets.org/blog/">News page</a> for information on new dataset releases around metastatic cancer, updates to the NYUMets API through MONAI, and announcements regarding upcoming contests,
-published research, and other initiatives. <br> <br>
-
-<a href="https://nyumets.org/blog/">NEWS, UPDATES, AND EVENTS</a>
+<section class="nm-hero">
+  <div class="nm-hero-text">
+    <h6 style="color:var(--color-accent)">Understanding metastatic cancer</h6>
+    <h1>Measuring Stage IV cancer as it evolves.</h1>
+    <p>Metastatic cancer changes clinically, radiographically, molecularly and genetically over years. NYUMets applies open data science to that complexity, releasing real-world longitudinal data and the tools to study it.</p>
+  </div>
+  <div class="nm-brain"><canvas id="nm-brain" aria-hidden="true"></canvas></div>
+</section>
+<section class="nm-housed">
+  <p>A joint project of <a href="https://med.nyu.edu/">NYU Grossman School of Medicine</a> and <a href="https://cds.nyu.edu/">NYU Center for Data Science</a>.</p>
+  <div class="nm-support"><span>Supported by</span><a href="https://www.nvidia.com/en-us/">NVIDIA</a><a href="https://aws.amazon.com/opendata/">AWS Open Data</a></div>
+</section>
+<script src="{{ '/assets/js/nm-brain.js' | relative_url }}"></script>

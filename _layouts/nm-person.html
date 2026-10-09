@@ -1,0 +1,16 @@
+---
+layout: nyumets
+---
+{% assign p = page %}
+<div class="nm-profile">
+<div class="nm-ph" style="aspect-ratio:4/5;border-radius:var(--radius-lg)">{% if p.photo %}<img src="{{ p.photo | relative_url }}" alt="{{ p.title }}">{% else %}portrait{% endif %}</div>
+<div style="padding-top:12px">
+<a href="{{ '/about/theteam' | relative_url }}" style="font-size:13px;color:var(--color-neutral-500);margin-bottom:22px;display:inline-flex;gap:6px;align-items:center"><i class="ph ph-arrow-left"></i>The team</a>
+<div><span class="tag tag-accent">{{ p.role }}</span></div>
+<h1 style="font-size:48px;letter-spacing:-.025em;margin:16px 0 8px">{{ p.title }}</h1>
+<div style="font-size:16px;color:var(--color-neutral-300);margin-bottom:16px">{{ p.position }}</div>
+<div class="nm-row" style="margin-bottom:32px">{% if p.email %}<a class="btn btn-secondary" href="mailto:{{ p.email }}"><i class="ph ph-envelope"></i>Email</a>{% endif %}{% for l in p.links %}<a class="btn btn-secondary" href="{{ l.url }}" target="_blank" rel="noopener"><i class="ph {{ l.icon }}"></i>{{ l.label }}</a>{% endfor %}</div>
+<div style="font-size:16px;line-height:1.7;color:var(--color-neutral-200);max-width:620px;display:flex;flex-direction:column;gap:14px">{{ content }}</div>
+
+</div>
+</div>

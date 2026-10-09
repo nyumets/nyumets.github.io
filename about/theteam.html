@@ -1,0 +1,24 @@
+---
+layout: nyumets
+title: Team
+---
+<div class="nm-page" style="padding-bottom:24px"><h1>The team</h1><p class="nm-lede" style="margin:0">Physicians, scientists, graduate and medical students, and software engineers working to understand and treat metastatic cancer through computer science.</p></div>
+<div class="nm-olab">
+
+<div><h6 style="color:var(--color-accent);margin:0 0 6px">Research home</h6><div style="font-family:var(--font-heading);font-size:20px;font-weight:600;margin-bottom:4px"><a href="https://nyuolab.org/" target="_blank" rel="noopener" style="color:inherit">OLAB AI Research Group</a></div><div style="font-size:14px;color:var(--color-neutral-300);max-width:640px">NYUMets is built within <a href="https://nyuolab.org/" target="_blank" rel="noopener">OLAB</a>, the AI research group at NYU Langone led by Eric Karl Oermann, working on AI for medicine and neuroscience.</div></div>
+<a class="btn btn-secondary" href="https://nyuolab.org/" target="_blank" rel="noopener">nyuolab.org <i class="ph ph-arrow-up-right"></i></a>
+</div>
+<div class="nm-team-grid">
+{% for l in site.data.nm_team.leads %}
+<a href="{% if l.url %}{{ l.url | relative_url }}{% else %}#{% endif %}" style="display:flex;flex-direction:column;gap:12px;color:inherit">
+<div class="nm-ph" style="aspect-ratio:4/3">{% if l.photo %}<img src="{{ l.photo | relative_url }}" alt="{{ l.name }}" style="object-position:{{ l.focus | default: '50% 30%' }}">{% else %}portrait{% endif %}</div>
+<div><span class="tag tag-accent">{{ l.role }}</span><div style="font-size:19px;font-weight:500;margin-top:8px">{{ l.name }}</div><div style="font-size:13px;color:var(--color-neutral-400)">{{ l.title }}</div></div>
+</a>
+{% endfor %}
+</div>
+<div class="nm-roster">
+<div><h6 style="color:var(--color-neutral-500);margin:4px 0 6px">NYU Langone Health</h6><div style="font-size:13px;color:var(--color-neutral-500)">(alphabetical order)</div></div>
+<div class="nm-names">{% for m in site.data.nm_team.members %}<span>{{ m }}</span>{% endfor %}</div>
+<h6 style="color:var(--color-neutral-500);margin:4px 0 0">Collaborators</h6>
+<div class="nm-names">{% for c in site.data.nm_team.collaborators %}<span>{{ c.name }} <small>({{ c.org }})</small></span>{% endfor %}</div>
+</div>
